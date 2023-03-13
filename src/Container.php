@@ -4,7 +4,7 @@
  * 依赖注入
  */
 
-namespace DoraemonIoc;
+namespace Clearswitch\DoraemonIoc;
 
 
 

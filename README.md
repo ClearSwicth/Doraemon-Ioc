@@ -1,7 +1,7 @@
 # DoraemonIoc
 dependency injection(依赖注入)
 
-use DoraemonIoc\Container
+use Clearswitch\DoraemonIoc\Container
 
 /**
  * 注册服务
