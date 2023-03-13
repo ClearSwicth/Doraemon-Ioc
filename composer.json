@@ -1,0 +1,19 @@
+{
+    "name": "clearswitch/doraemon-ioc",
+    "description": "dependency injection(依赖注入) ioc",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Clearswitch\\DoraemonIoc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "clearswitch",
+            "email": "903221813@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
