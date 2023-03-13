@@ -26,7 +26,7 @@ class Container
      * @param $closure_obj
      * @author clearSwitch
      */
-    public static function bing($className, $closure_obj)
+    public static function bind($className, $closure_obj)
     {
         if ($closure_obj instanceof Closure) {
             static::$ServerContainer[$className] = call_user_func($closure_obj);
@@ -43,7 +43,7 @@ class Container
      * @throws Exception
      * @author clearSwitch
      */
-    public static function make($className,$closure_obj)
+    public static function make($className,$closure_obj=null)
     {
         if (empty(static::$ServerContainer[$className])) {
             static::$ServerContainer[$className] = static::getInstances($closure_obj);
