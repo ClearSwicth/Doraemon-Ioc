@@ -1,6 +1,7 @@
 # DoraemonIoc
 dependency injection(依赖注入)
-[image] (https://github.com/ClearSwicth/icon/blob/master/img/doraemon.jpeg?raw=true)
+
+![image](https://github.com/ClearSwicth/icon/blob/master/img/doraemon.jpeg?raw=true)
 
 ```php
 use Clearswitch\DoraemonIoc\Container;
