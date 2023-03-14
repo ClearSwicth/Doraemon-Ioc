@@ -5,12 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Clearswitch\\DoraemonIoc\\": "src/"
+            "ClearSwitch\\DoraemonIoc\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "clearswitch",
+            "name": "ClearSwitch",
             "email": "903221813@qq.com"
         }
     ],
