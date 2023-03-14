@@ -28,7 +28,7 @@ class Container
      */
     public static function bind($className, $closure_obj)
     {
-        if ($closure_obj instanceof Closure) {
+        if ($closure_obj instanceof \Closure) {
             static::$ServerContainer[$className] = call_user_func($closure_obj);
         } else {
             static::$ServerContainer[$className] = static::getInstances($closure_obj);
@@ -60,7 +60,7 @@ class Container
     {
         //获得类的所有信息
         try {
-            $ref = new ReflectionClass($className);
+            $ref = new \ReflectionClass($className);
         } catch (\Exception $re) {
             throw new \Exception("没有项目中没有这个文件");
         }
